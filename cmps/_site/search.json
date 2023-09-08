@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Professional Précis",
+    "section": "",
+    "text": "Hello, my name is Will Wolff, and I am looking forward to collaborating with everyone this semesterand work hard to complete the challenges ahead of us"
+  },
+  {
+    "objectID": "index.html#se1",
+    "href": "index.html#se1",
+    "title": "Professional Précis",
+    "section": "SE1",
+    "text": "SE1\nThe first section of the SE book software engineering and what it means at Google. Programming and software engineering are two completely different things but people misinterperet these topics and think they are the same. Programming is the oriented more towards writing code. Software engineering on the other hand is a more difficult area. Software engineers have to keep up with the evloution of modern software as well as having to maintain what has already been done. Google relies on “Culture, Processes, and Tools” to create a great team behind their software engineers."
+  },
+  {
+    "objectID": "index.html#fb1",
+    "href": "index.html#fb1",
+    "title": "Professional Précis",
+    "section": "FB1",
+    "text": "FB1\nChapter 1 in Fuzzing Book introduces us to software engineering and certain aspects of being a software engineer. It talks a lot about test cases, which go and make sure that the code works and keeps up to date and works through all problems it may face. They give examples of some test cases where the code given is very simple and they put in a value they know the return value should be. They give many ways of going about testing this manually as well as automatically testing to see if the code passes. The different methods given for how to test are very interesting and open the door for many new ways for even more variants of code to be tested.\nExample:\ndef sqrt_program(arg: str) -&gt; None:\n    try:\n        x = float(arg)\n    except ValueError:\n        print(\"Illegal Input\")\n    else:\n        if x &lt; 0:\n            print(\"Illegal Number\")\n        else:\n            print('The root of', x, 'is', my_sqrt(x))\nIf x were to be switched with only a positiver integer, then the code will return the message ‘The root of’, x, ‘is’, my_sqrt(x) where x is substituted for the positive integer. But if the code is not a positive integer the code will return the message “Illegal Number”. If there is an illegal input, the message returned will be “Illegal Input”.\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
